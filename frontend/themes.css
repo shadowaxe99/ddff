@@ -1,0 +1,45 @@
+/* frontend/themes.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Default Theme */
+.theme-default {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+/* Dark Theme */
+.theme-dark {
+    --primary-color: #343a40;
+    --secondary-color: #6c757d;
+    --background-color: #000000;
+    --text-color: #ffffff;
+}
+
+/* Light Theme */
+.theme-light {
+    --primary-color: #f8f9fa;
+    --secondary-color: #6c757d;
+    --background-color: #ffffff;
+    --text-color: #000000;
+}
+
+/* Apply theme colors */
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}

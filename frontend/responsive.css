@@ -1,0 +1,58 @@
+/* Responsive CSS for Editor-in-Chief Assistant Application */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .container {
+        width: 100%;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container {
+        width: 750px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .container {
+        width: 970px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .container {
+        width: 1170px;
+    }
+}
+
+/* Responsive typography */
+html {
+    font-size: 100%; /*16px*/
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 112.5%; /*18px*/
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 125%; /*20px*/
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 137.5%; /*22px*/
+    }
+}
+
+@media (min-width: 1200px) {
+    html {
+        font-size: 150%; /*24px*/
+    }
+}
